@@ -1,0 +1,138 @@
+/* body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.main-div{
+    cursor: none;
+    display: flex;
+    flex-direction: row;
+    height: 30rem;
+    width: 16rem;
+    background-color: rgb(57, 54, 54);
+    border-radius: 20px;
+    position: relative;
+}
+
+.inner-div{
+padding: 3px;
+margin-top: 2px;
+margin-left: 8px;
+margin-left: 1rem;
+}
+.inner-div .top-element{
+    align-items: center;
+}
+/* h3{
+    
+    font-size: medium;
+    color: rgb(201, 57, 4);
+    align-items: center;
+    justify-content: center;
+} */
+.top-element hr{
+    color: rgb(201, 57, 4);
+}
+.top-box{
+    margin-left: 0.6rem;
+margin-bottom: 2rem;
+}
+input{
+    cursor: none;
+    color: white;
+    font-size: 2rem;
+    background-color: rgb(57, 54, 54);
+    height: 4rem;
+    width: 12rem;
+    outline: none;
+    border: none;
+
+}
+.top-box hr{
+    height: 1px;
+    margin-top: 0px;
+   background-color:  rgb(153, 145, 145);
+    border: none;
+}
+.middle{
+    height: 10rem;
+    width: 4rem;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
+   
+}
+.middle div{
+    cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    color: white;
+    height: 2.8rem;
+    width: 2.8rem;
+    border: 2px solid rgb(153, 145, 145);
+border-radius: 50%;
+
+}
+.bottom{
+    margin-top: 1.5rem;
+    color: #808080;
+    display: flex;
+    cursor: none;
+    margin-top: 1.3rem;
+    /* align-items: center; */
+    justify-content: center;
+   /* border: 2px solid #c93904; */
+   /* border-radius: 5px; */
+   /* height: 2rem; */
+   /* width: 9rem; */
+ /* position: absolute; */
+ /* bottom: 28px; */
+ /* left: 3.2rem; */
+}
+/* .bottom {
+    
+color: white;
+font-weight: bold;
+font-size: 1.4rem;
+background-color: transparent;
+border: none;
+
+} */
+.right-side{
+    cursor: pointer;
+background-color: #808080;
+}
+.last{
+    margin-left: 0.4rem;
+    margin-top: 1.2rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+.equal{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(153, 145, 145);
+    border-radius: 20px;
+    margin-top: 3rem;
+    height: 2rem;
+    width: 3.5rem;
+    background-color:  #c93904;
+    border: 2px solid #c93904;
+    /* grid-row: 5/8; */
+    /* grid-column-end: 6; */
+   
+}
+.top-element{
+    display: flex;
+    justify-content: center;
+    color:  #c93904;
+}
+.top-element u{
+  width: 4rem;
+}
